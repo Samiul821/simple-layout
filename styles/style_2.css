@@ -1,0 +1,25 @@
+/* div{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+img{
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+} */
+ div{
+    width: 100%;
+    height: 100vh;
+ }
+ img{
+   width: 100%;
+   height: 100vh;
+ }
+ @media screen and (max-width: 576px) {
+    div{
+        grid-template-columns: repeat(1,1fr);
+        max-width: 576px;
+    }
+ }
