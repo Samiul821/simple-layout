@@ -1,0 +1,24 @@
+.first-card{
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+img{
+    border-radius: 5px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+@media screen and (max-width: 576px) {
+    .first-card{
+       flex-direction: column;
+       width: 95%;
+    }
+}
